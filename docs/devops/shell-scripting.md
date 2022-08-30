@@ -8,6 +8,8 @@
 
 `pip install watchfiles`
 
+`watchfiles --filter python 'pytest --lf' src tests`
+
 ## rust: watchexec
 
 `watchexec -e conf,lua,html -- "nginx -t; nginx -s reload"`
