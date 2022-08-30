@@ -1,5 +1,3 @@
-### Java
-
 ### Golang
 
 tea.msheriff.com
