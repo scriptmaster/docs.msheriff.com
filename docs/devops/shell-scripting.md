@@ -1,6 +1,6 @@
 # Shell Scripting
 
-`while inotifywait -r /var/www/lua -e create,delete,modify; do { echo "nginx -s reload"; }; done`
+`while inotifywait -r /var/www/py -e create,delete,modify --exclude '\.(swp|log|pyc)$'; do { echo "nginx -s reload"; }; done`
 
 ## python: watchfiles
 
