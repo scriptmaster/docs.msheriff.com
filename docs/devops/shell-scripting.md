@@ -2,6 +2,8 @@
 
 `while inotifywait -r /var/www/py -e create,delete,modify --exclude '\.(swp|log|pyc)$'; do { echo "nginx -s reload"; }; done`
 
+`while inotifywait -r /var/www/py -e create,delete,modify --exclude '__pycache__|node_modules|\.(swp|log|pyc)$'; do { echo "nginx -s reload"; }; done`
+
 ## python: watchfiles
 
 `pip install watchfiles`
