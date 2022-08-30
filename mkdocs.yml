@@ -1,5 +1,6 @@
 site_name: MSHERIFF DOCS
 site_url: https://docs.msheriff.com/
+site_dir: /var/www/mkdocs/
 theme:
   name: material
-site_dir: /var/www/mkdocs/
+  custom_dir: overrides
