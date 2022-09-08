@@ -13,3 +13,8 @@
 ## rust: watchexec
 
 `watchexec -e conf,lua,html -- "nginx -t; nginx -s reload"`
+
+## Generate secure passwd
+
+`openssl rand -base64 18`
+
