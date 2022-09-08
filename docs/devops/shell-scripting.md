@@ -18,3 +18,11 @@
 
 `openssl rand -base64 18`
 
+
+## ip/route tables
+```
+ip addr
+ifconfig
+netstat -nrt
+ip route
+```
